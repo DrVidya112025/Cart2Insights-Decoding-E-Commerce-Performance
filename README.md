@@ -612,10 +612,14 @@ Loop through each DataFrame to check shape, columns, and data types
  Helps to find how many rows/columns exist, what fields are available, and whether you need to handle missing values or type conversions.
 :
 ## Project Directory Structure
+
+## 🗂️ Project Directory Structure
+
+```text
 Cart2Insights/
 ├── data/
-│   ├── raw/
-│   │   ├── olist_customers_dataset.csv          # Raw data of the project
+│   ├── raw/                                  # Raw data of the project
+│   │   ├── olist_customers_dataset.csv
 │   │   ├── olist_geolocation_dataset.csv
 │   │   ├── olist_order_items_dataset.csv
 │   │   ├── olist_order_payments_dataset.csv
@@ -625,7 +629,7 @@ Cart2Insights/
 │   │   ├── olist_sellers_dataset.csv
 │   │   └── product_category_name_translation.csv
 │
-│   └── cleaned/                                # Cleaned, standardized, and enriched analytical datasets
+│   └── cleaned/                              # Cleaned, standardized, and enriched analytical datasets
 │       ├── customers_cleaned.csv
 │       ├── products_cleaned.csv
 │       ├── sellers_cleaned.csv
@@ -636,7 +640,7 @@ Cart2Insights/
 │       ├── category_translation_cleaned.csv
 │       └── orders_cleaned.csv
 │
-├── notebooks/                                 # Jupyter notebooks for EDA and statistical modeling
+├── notebooks/                               # Jupyter notebooks for EDA and statistical modeling
 │   ├── Step 1 Understanding the Business Problem.ipynb
 │   ├── Step 2 Understand the Dataset & ER Diagram.ipynb
 │   ├── Step 3 Load the Raw Data.ipynb
@@ -650,14 +654,17 @@ Cart2Insights/
 │   └── Step 11 Business Insight.ipynb
 │
 ├── Database/
-│   └── Cart2.sql                              # MySQL DDL schemas, indexing scripts, and analytical queries
+│   └── Cart2.sql                            # MySQL DDL schemas, indexing scripts, and analytical queries
 │
 ├── streamlit/
-│   ├── app.py                                 # Main entry point of the Streamlit dashboard
-│   ├── database.py                            # Handles database connections and configurations
-│   ├── queries.py                             # Stores SQL queries or ORM functions for retrieving data
-│   ├── utils.py                               # Utility/helper functions used across the project
-│   └── weekly_reports.py                      # Generates weekly performance reports from the data
+│   ├── app.py                               # Main entry point of the Streamlit dashboard
+│   ├── database.py                          # Handles database connections and configurations
+│   ├── queries.py                           # Stores SQL queries or ORM functions for retrieving data
+│   ├── utils.py                             # Utility/helper functions used across the project
+│   └── weekly_reports.py                    # Generates weekly performance reports from the data
+│
+└── README.md
+
 │
 Cart2Insights/
 ├── data/
