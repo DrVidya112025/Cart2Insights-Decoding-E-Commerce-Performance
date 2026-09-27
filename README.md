@@ -613,10 +613,10 @@ Loop through each DataFrame to check shape, columns, and data types
 :
 ## Project Directory Structure
 
-## 🗂️ Project Directory Structure
+## Project Directory Structure
 
 ```text
-Cart2Insights/
+🗂️ Cart2Insights/
 ├── data/
 │   ├── raw/                                  # Raw data of the project
 │   │   ├── olist_customers_dataset.csv
@@ -666,8 +666,8 @@ Cart2Insights/
 └── README.md
 
                                                         
-*****************************************************************************************************************************************************************************************************************
-*****************************************************************************************************************************************************************************************************************
+******************************************************************************************************************************************************************
+******************************************************************************************************************************************************************
 ## STEP: 4  Data Quality Analysis
 The objective is to systematically assess the quality of the raw e-commerce datasets before performing data cleaning and transformation.
 
