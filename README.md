@@ -627,7 +627,7 @@ Cart2Insights/
 ## Project Directory Structure
 
 ```text
-🗂️ Cart2Insights/
+ Cart2Insights/
 ├── data/
 │   ├── raw/                                  # Raw data of the project
 │   │   ├── olist_customers_dataset.csv
