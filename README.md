@@ -612,6 +612,17 @@ Loop through each DataFrame to check shape, columns, and data types
  Helps to find how many rows/columns exist, what fields are available, and whether you need to handle missing values or type conversions.
 :
 ## Project Directory Structure
+## 🗂️ Project Directory Structure
+
+```text
+Cart2Insights/
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── notebooks/
+├── Database/
+├── streamlit/
+└── README.md
 
 ## Project Directory Structure
 
