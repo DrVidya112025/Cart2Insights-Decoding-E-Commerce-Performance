@@ -62,22 +62,24 @@ it enables a comprehensive understanding of business performance and highlights 
 
 ## 5. Identify the key business objectives
 
-Monitor performance —                Track revenue, order volume, customer growth, seller activity, average order value, and review scores over time
-                                     to maintain visibility into overall business health.
-Understand customers —               Identify who is purchasing, how much they spend, and distinguish between repeat and one-time buyers to inform 
-                                     retention strategy.
-Optimize sales —                     Determine which product categories, individual products, and geographic regions contribute most significantly to 
-                                     revenue generation.
-Evaluate sellers and products —      Assess performance across revenue, order volume, and customer ratings to identify top performers as well as
-                                     underperforming sellers or listings.
-Improve delivery operations —        Measure delivery times and delay patterns to pinpoint where fulfilment processes break down and impact customer
-                                     experience.
+Monitor performance —                
+Track revenue, order volume, customer growth, seller activity, average order value, and review scores over time to maintain visibility into overall business health.
+Understand customers —               
+Identify who is purchasing, how much they spend, and distinguish between repeat and one-time buyers to inform retention strategy.
+Optimize sales —                     
+Determine which product categories, individual products, and geographic regions contribute most significantly to revenue generation.
+Evaluate sellers and products —     
+Assess performance across revenue, order volume, and customer ratings to identify top performers as well as underperforming sellers or listings.
+Improve delivery operations —        
+Measure delivery times and delay patterns to pinpoint where fulfilment processes break down and impact customer experience.
 Enhance customer experience —        Determine the underlying drivers of review scores and customer satisfaction.
-Enable data-driven decision-making — Deliver consolidated insights through a centralized SQL data warehouse supported by a live, interactive dashboard.
-Support risk management —            Proactively flag underperforming sellers, delivery regions, or product categories before they materially affect
-                                     revenue or brand reputation.
-Benchmark growth over time —         Establish baseline metrics and trend lines that allow performance to be tracked against historical periods and
-                                     business targets.
+Enable data-driven decision-making — 
+Deliver consolidated insights through a centralized SQL data warehouse supported by a live, interactive dashboard.
+Support risk management —            
+Proactively flag underperforming sellers, delivery regions, or product categories before they materially affect revenue or brand reputation.
+Benchmark growth over time —        
+Establish baseline metrics and trend lines that allow performance to be tracked against historical periods and business targets.
+
 ## 6. Define the questions the analysis should answer
 
 Theme	                             Key Business Questions
