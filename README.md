@@ -117,7 +117,7 @@ Satisfaction	                     What does the distribution of review scores lo
 Business growth	                     What specific actions can improve revenue performance and customer experience? 
                                      Which underperforming areas present the greatest opportunity for improvement?
                                                                                                   
-# Statistically Tested Business Questions (Hypothesis-Driven)
+## 7. Statistically Tested Business Questions (Hypothesis-Driven)
 
 These three statistical questions are being acted on:
 
