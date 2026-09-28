@@ -335,8 +335,7 @@ The `product_category_translation` table maps the original Portuguese product ca
 Two categories referenced by products were added during SQL preparation because they were missing 
 from the original cleaned category file. This allowed the product-category foreign-key relationship to be maintained.
 
-## 2.3. Identify Primary Keys and Foreign Keys
-# Identify Primary Keys
+## 2.3. Identify Primary Keys 
 
 Primary keys uniquely identify records within each table.
 
@@ -352,7 +351,7 @@ Primary keys uniquely identify records within each table.
 | sellers                      |  seller_id                       |
 | product_category_translation |  product_category_name           |
 
-# 2.4 Identify Foreign Keys
+## 2.4 Identify Foreign Keys
 
 The major foreign-key relationships in the database are:
 
