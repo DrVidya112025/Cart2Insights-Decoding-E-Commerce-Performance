@@ -199,9 +199,6 @@ Prefixes appearing exactly once	1,043
 Only about 5% of ZIP prefixes are unique in this table. The rest repeat dozens or even hundreds of times — 
 for example, ZIP prefix 24220 appears 1,146 times, and 24230 appears 1,102 times, each with different latitude/longitude values.
 
-This confirms the original statement: since zip_code_prefix maps to many rows (many distinct lat/lng points, and occasionally 
-slightly different city/state entries), it cannot serve as a primary key on its own — a primary key must uniquely identify each row, 
-and this column doesn't.
 ---
 
 ## 2.2.3. Orders
