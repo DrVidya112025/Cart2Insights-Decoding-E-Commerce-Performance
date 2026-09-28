@@ -262,11 +262,6 @@ The `order_payments` table contains payment information for orders.
 **Primary Key:** `(order_id, payment_sequential)`
 **Foreign Key:** `order_id → orders.order_id`
 
-**Important project note:
-** `payment_value` is used for payment analysis but **not** for calculating total order revenue.
-    For this project, total order value is calculated as:
-`   price + freight_value`
-    summed across the items belonging to an order.
 ---
 
 ## 2.2.6. Order Reviews
@@ -283,9 +278,6 @@ The `order_reviews` table contains customer review information.
 | review_creation_date    | DATETIME     | Review creation date                                | —           |
 | review_answer_timestamp | DATETIME     | Review response timestamp                           | —           |
 
-**Rows:** 99,224
-**Primary Key:** review_id  
-**Foreign Key:** order_id → orders.order_id
 ---
 ## 2.2.7. Products
 
@@ -305,7 +297,6 @@ The `products` table contains information about products sold on the platform.
 
 
 **Rows:** 32,951
-
 **Primary Key:** product_id
 **Foreign Key:** product_category_name 
 product_category_name → product_category_translation.product_category_name
