@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# ZIP / backup files
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets / credentials
+.env
+*.pem
+
+# Python data / logs
+*.log
+.ipynb_checkpoints/
+__pycache__/
+.env
+Data/raw/
+Data/cleaned1/
+Data/cleaned/
+streamlit/__pycache__/
