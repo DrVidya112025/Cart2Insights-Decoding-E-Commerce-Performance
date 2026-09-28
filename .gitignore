@@ -39,3 +39,5 @@ Data/raw/
 Data/cleaned1/
 Data/cleaned/
 streamlit/__pycache__/
+# Local cleaned datasets
+*_cleaned.csv
