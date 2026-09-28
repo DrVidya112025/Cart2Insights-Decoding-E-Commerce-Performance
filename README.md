@@ -51,11 +51,11 @@ Consolidate insights from all the above areas into unified dashboards and report
 An e-commerce platform facilitates the online sale of products.
 So, generates substantial volumes of data across several interconnected areas:
 
->> Customers and their order history
->> Products and sellers
->> Payments and revenue
->> Deliveries and shipping logistics
->> Customer reviews and satisfaction ratings.
+ Customers and their order history
+ Products and sellers
+ Payments and revenue
+ Deliveries and shipping logistics
+ Customer reviews and satisfaction ratings.
     
 This data resides across multiple related datasets.When analyzed collectively rather than in isolation, 
 it enables a comprehensive understanding of business performance and highlights areas with the greatest potential for improvement.
