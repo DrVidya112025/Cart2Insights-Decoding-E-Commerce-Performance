@@ -709,6 +709,7 @@ Create tables based on the ER diagram
 
 
 ## Feature Meaning
+
 1. total_order_value :     	Total payment value for an order
 
 2. delivery_days:            Actual number of days taken to deliver
@@ -756,17 +757,29 @@ and seller performance metrics using SQL aggregations, CTEs, joins, and conditio
 # Step 8 Exploratory Data Analysis
 
 1.Bring data from SQL into Python
+
 2. Load EDA data
+ 
 3.Numerical summary
+
 4.Univariate Analysis.
+
 5.Bivariate Analysis
+
   5.1Correlation Heatmap
+  
 6.Multivariate Analysis
+
 7.Order Value Distribution
+
 8.Boxplot Analysis
+
 9.Actual Delivery Days Distribution
+
 10.Delivery Delay Distribution
+
 11.Review Score Distribution
+
 12.Trend analysis
 
 ******************************************************************************************************************************************************************
@@ -774,19 +787,29 @@ and seller performance metrics using SQL aggregations, CTEs, joins, and conditio
 # Step 9: Statistical Analysis
 
 1.T-Test — Delivery & Customer Satisfaction
+
 2.Connect the SQL Database
+
 3.Create the two T-test groups
+
 4.Perform the T-Test
+
 5.Check the T-test assumptions
+
 6.Statistical Summary
+
 7.Business Insight
+
 8.ANOVA — Product Category & Spending
+
 9.Chi-Square Test — Payment Method & Order Status
 
 ******************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************
 # Step 10 SQL Analysis & Streamlit Dashboard
+
 SQL is used to query and aggregate the cleaned e‑commerce datasets stored in a relational database.
+
 >>Connect MySQL to Streamlut Dashboard
 
 Create Dashboards with:
