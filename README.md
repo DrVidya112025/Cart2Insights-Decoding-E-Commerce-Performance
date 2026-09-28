@@ -579,8 +579,8 @@ product_category_name_english : str
 
 ******************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************
-## Step 3:
-# 3.1 Load the Raw Data
+# Step 3:Raw Data
+## 3.1 Load the Raw Data
 The objective of this step is to load all raw CSV files into Python using Pandas and understand the initial structure of the dataset before performing data cleaning and preprocessing.
 To ensure that the dataset working with is accurate, consistent, and ready for meaningful analysis or modeling.In other words, it transforms raw, messy data into a reliable form that can
 produce trustworthy insights
@@ -594,16 +594,16 @@ Basic structure of the data
 Identification of potential data-quality issues
 
 The raw datasets were loaded using the Pandas library
-# 3.2 Check shape, columns, and data types
+## 3.2 Check shape, columns, and data types
 Loop through each DataFrame to check shape, columns, and data types
 
-# 3.3 Understand the structure of each table
+## 3.3 Understand the structure of each table
  This check gives overview of each raw dataset before cleaning. 
  Helps to find how many rows/columns exist, what fields are available, and whether you need to handle missing values or type conversions.
 
 ******************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************
-## STEP: 4  Data Quality Analysis
+# STEP: 4  Data Quality Analysis
 The objective is to systematically assess the quality of the raw e-commerce datasets before performing data cleaning and transformation.
 
 ## 4.1 To investigate:
@@ -620,7 +620,7 @@ The objective is to systematically assess the quality of the raw e-commerce data
 
 ******************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************
-## STEP: 5 Data Cleaning & Preprocessing
+# STEP: 5 Data Cleaning & Preprocessing
 Data Cleaning & Preprocessing is the essential step that transforms raw, messy datasets into reliable, analysis‑ready information. 
 It invovles
 >>Load the Data
@@ -656,7 +656,7 @@ Save all the cleaned datasets.
 
 *******************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************
-## Step 6 Store Cleaned Data in MySQL
+# Step 6 Store Cleaned Data in MySQL
 
 >CREATE DATABASE cart2;
 
@@ -705,7 +705,7 @@ order_reviews.order_id → orders.order_id
 >>NULL values
 ******************************************************************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************************************************************
-## STEP: 7 FEATURE ENGINEERING
+# STEP: 7 FEATURE ENGINEERING
 
 
 ## Feature                                    	Meaning
@@ -737,7 +737,7 @@ and seller performance metrics using SQL aggregations, CTEs, joins, and conditio
 
 *******************************************************************************************************************************************************************************************************************
 *******************************************************************************************************************************************************************************************************************
-## Step 8 Exploratory Data Analysis
+# Step 8 Exploratory Data Analysis
 
 >>Bring data from SQL into Python
 >> Load EDA data
@@ -755,7 +755,7 @@ and seller performance metrics using SQL aggregations, CTEs, joins, and conditio
 
 *********************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************
-## Step 9: Statistical Analysis
+# Step 9: Statistical Analysis
 
 >>T-Test — Delivery & Customer Satisfaction
 >>Connect the SQL Database
@@ -769,11 +769,11 @@ and seller performance metrics using SQL aggregations, CTEs, joins, and conditio
 
 ********************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************
-## Step 10 SQL Analysis & Streamlit Dashboard
+# Step 10 SQL Analysis & Streamlit Dashboard
 SQL is used to query and aggregate the cleaned e‑commerce datasets stored in a relational database.
 >>Connect MySQL to Streamlut Dashboard
 Create Dashboards with:
-# Create dashboard tabs
+## Create dashboard tabs
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
     [
         "📈 Sales Analysis",
@@ -811,7 +811,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
         
 **********************************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************************
-## Step 11: Generate Business Insights
+# Step 11: Generate Business Insights
 
 ## Project Findings Summary
 
@@ -851,7 +851,7 @@ is effectively order-specific, meaning repeat-customer behavior cannot be reliab
 A Chi-Square test indicated a statistically significant association between payment method and order status (χ² = 677.083, p < 0.001). 
 However, since 45% of expected cell counts were below 5, this result should be interpreted with caution.
 
-## Step 2 — Translating Findings into Recommendations
+## Translating Findings into Recommendations
 
 The following recommendations connect each finding directly to a corresponding business action:
 
