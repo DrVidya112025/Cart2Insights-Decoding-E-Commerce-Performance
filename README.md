@@ -124,9 +124,11 @@ Business growth	                     What specific actions can improve revenue p
 These three statistical questions are being acted on:
 
 ### 	Business Question using Statistical Test
-1	Do delayed orders receive significantly lower review scores than on-time orders?=Independent two-sample t-test
-2	Does average order value differ significantly across product categories?=One-way ANOVA
-3	Is there a significant association between payment method and order status?=Chi-square test of independence   
+>> 1	Do delayed orders receive significantly lower review scores than on-time orders?=Independent two-sample t-test
+
+>> 2	Does average order value differ significantly across product categories?=One-way ANOVA
+
+>> 3	Is there a significant association between payment method and order status?=Chi-square test of independence   
 
 ******************************************************************************************************************************************************************
 ******************************************************************************************************************************************************************
