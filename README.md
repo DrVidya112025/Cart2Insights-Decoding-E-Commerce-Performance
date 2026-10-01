@@ -962,4 +962,4 @@ Payment/order-status Chi-Square result has sparse cells	       Monitor payment-s
 
 ## 🚀 Live Streamlit Dashboard
 
-[Open Cart2Insights Dashboard](https://github.com/DrVidya112025/Cart2Insights-Decoding-E-Commerce-Performance/)
+[Open Cart2Insights Dashboard](https://github.com/DrVidya112025/Cart2Insights-Decoding-E-Commerce-Performance/) http://localhost:8501/
