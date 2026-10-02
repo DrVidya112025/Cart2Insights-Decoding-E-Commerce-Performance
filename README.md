@@ -99,42 +99,45 @@ Establish baseline metrics and trend lines that allow performance to be tracked 
 
 ## 6. Define the questions the analysis should answer
 
-Theme	                               Key Business Questions
+## Key Business Questions
 
-Business Overview                    What is the platform's total revenue and order volume to date?
-                                     How many unique customers and sellers are active on the platform?
-                                     What is the average order value, and what is the average customer review score?
+Business Overview :                  
+What is the platform's total revenue and order volume to date?
+How many unique customers and sellers are active on the platform?
+What is the average order value, and what is the average customer review score?
                                          
-Sales & revenue	                     How does monthly revenue trend, and how has it evolved over time? 
-                                     Which categories, products, and locations contribute most to overall revenue? 
-                                     What is the average order value, and how does it vary across segments? 
+Sales & revenue	 : 
+How does monthly revenue trend, and how has it evolved over time? 
+Which categories, products, and locations contribute most to overall revenue? 
+What is the average order value, and how does it vary across segments? 
                         
-Customers	                           What proportion of customers are repeat buyers versus one-time purchasers? 
-                                     How is customer spend distributed across the base? 
-                                     Who are the top customers by value, and what characterizes them?
+Customers	       :                   
+What proportion of customers are repeat buyers versus one-time purchasers? 
+How is customer spend distributed across the base? 
+Who are the top customers by value, and what characterizes them?
 
+Products & sellers	  :
+Which products generate the highest sales volume and revenue? 
+Which sellers drive the most revenue, orders, and customer satisfaction? 
+How do ratings vary across sellers and product categories?
 
-Products & sellers	                  Which products generate the highest sales volume and revenue? 
-                                     Which sellers drive the most revenue, orders, and customer satisfaction? 
-                                     How do ratings vary across sellers and product categories?
+Payments	    :                        
+Which payment methods and installment patterns are most commonly used? 
+Is there a relationship between payment method and order completion or cancellation status?
 
+Delivery	     :                     
+What is the average delivery time across orders? 
+What proportion of deliveries are late, and by how much? 
+Which regions experience the slowest fulfilment?
 
-Payments	                            Which payment methods and installment patterns are most commonly used? 
-                                     Is there a relationship between payment method and order completion or cancellation status?
+Satisfaction	  :               
+What does the distribution of review scores look like? 
+Does late delivery correlate with lower ratings? 
+Which product categories receive the most negative reviews, and why?
 
-
-Delivery	                            What is the average delivery time across orders? 
-                                     What proportion of deliveries are late, and by how much? 
-                                     Which regions experience the slowest fulfilment?
-
-
-Satisfaction	                        What does the distribution of review scores look like? 
-                                     Does late delivery correlate with lower ratings? 
-                                     Which product categories receive the most negative reviews, and why?
-
-
-Business growth	                     What specific actions can improve revenue performance and customer experience? 
-                                     Which underperforming areas present the greatest opportunity for improvement?
+Business growth	 :                    
+What specific actions can improve revenue performance and customer experience? 
+Which underperforming areas present the greatest opportunity for improvement?
                                                                                                   
 ## 7. Statistically Tested Business Questions (Hypothesis-Driven)
 
