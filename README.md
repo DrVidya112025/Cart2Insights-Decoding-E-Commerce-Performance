@@ -634,17 +634,25 @@ The objective is to systematically assess the quality of the raw e-commerce data
 ## 4.1 To investigate:
 
 1.Missing values
+
 2.Exact duplicates
+
 3.Primary-key uniqueness
+
 4.Foreign-key validity
+
 5.Incorrect Data types
+
 6.Categorical consistency
+
 7.Numerical validity
+
 8.Date validity
+
 9.Potential outliers
 
-******************************************************************************************************************************************************************
-******************************************************************************************************************************************************************
+*****************************************************************************************************************************************************************
+*****************************************************************************************************************************************************************
 # STEP: 5 Data Cleaning & Preprocessing
 Data Cleaning & Preprocessing is the essential step that transforms raw, messy datasets into reliable, analysis‑ready information. 
 It invovles
