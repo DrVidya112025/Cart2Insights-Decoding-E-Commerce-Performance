@@ -418,7 +418,9 @@ the complete lifecycle of an order, from the moment a customer places it to the 
    Insight:     Central hub table — connects customers, items, payments, and reviews.
 
 ** Order Items Dataset - olist_order_items_dataset.csv
+   
    Key Fields:  order_id, product_id, seller_id
+   
    Links to:
                 Orders Dataset (order_id)
                 Products Dataset (product_id)
@@ -427,10 +429,13 @@ the complete lifecycle of an order, from the moment a customer places it to the 
     Insight:    Defines what products were bought, from which seller, in each order.
 
 ** Products Dataset - olist_products_dataset.csv
+   
    Key Field:   product_id
+  
    Links to:
                 Order Items Dataset (product_id)
                 Product Category Translation Dataset (product_category_name)
+   
    Insight:     Provides product details and category mapping for analysis.
 
 ** Product Category Translation - product_category_name_translation.csv
