@@ -403,12 +403,12 @@ The nine tables in this dataset are not independent — together, they form a si
 the complete lifecycle of an order, from the moment a customer places it to the moment they leave a review.
 
 
-1. Customers Dataset - olist_customers_dataset.csv
+** Customers Dataset - olist_customers_dataset.csv
    Key Field: customer_id
    Links to:  Orders Dataset via customer_id → identifies which orders belong to which customer.
    Insight:  Helps track churn, repeat purchases, and customer segmentation.
 
-2. Orders Dataset - olist_orders_dataset.csv
+** Orders Dataset - olist_orders_dataset.csv
    Key Field:   order_id
    Links to:   
                 Customers Dataset (customer_id)
@@ -417,7 +417,7 @@ the complete lifecycle of an order, from the moment a customer places it to the 
                 Order Reviews Dataset (order_id)
    Insight:     Central hub table — connects customers, items, payments, and reviews.
 
-3. Order Items Dataset - olist_order_items_dataset.csv
+** Order Items Dataset - olist_order_items_dataset.csv
    Key Fields:  order_id, product_id, seller_id
    Links to:
                 Orders Dataset (order_id)
@@ -426,38 +426,38 @@ the complete lifecycle of an order, from the moment a customer places it to the 
 
     Insight:    Defines what products were bought, from which seller, in each order.
 
-4. Products Dataset - olist_products_dataset.csv
+** Products Dataset - olist_products_dataset.csv
    Key Field:   product_id
    Links to:
                 Order Items Dataset (product_id)
                 Product Category Translation Dataset (product_category_name)
    Insight:     Provides product details and category mapping for analysis.
 
-5. Product Category Translation - product_category_name_translation.csv
+** Product Category Translation - product_category_name_translation.csv
    Key Field:   product_category_name
    Links to:
                 Products Dataset (product_category_name)
    Insight:     Translates Portuguese product categories into English for easier reporting.
 
-6. Order Payments Dataset - olist_order_payments_dataset.csv)\
+** Order Payments Dataset - olist_order_payments_dataset.csv)\
    Key Field:   order_id
    Links to:
                 Orders Dataset (order_id)
    Insight:     Tracks payment methods, installments, and amounts.
 
-7. Order Reviews Dataset -olist_order_reviews_dataset.csv
+** Order Reviews Dataset -olist_order_reviews_dataset.csv
    Key Field:   order_id
    Links to:
                 Orders Dataset (order_id)
    Insight:     Captures customer feedback, ratings, and review timestamps.
 
-8. Sellers Dataset - olist_sellers_dataset.csv
+** Sellers Dataset - olist_sellers_dataset.csv
    Key Field:   seller_id
    Links to:
    Order Items Dataset (seller_id)
    Insight:    Provides seller location and identity, useful for seller performance analysis.
 
-9. Geolocation Dataset - olist_geolocation_dataset.csv
+** Geolocation Dataset - olist_geolocation_dataset.csv
    Key Fields: geolocation_zip_code_prefix
    Links to:
                Customers Dataset (customer_zip_code_prefix)
