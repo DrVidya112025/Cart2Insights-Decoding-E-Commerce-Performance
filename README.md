@@ -416,8 +416,7 @@ the complete lifecycle of an order, from the moment a customer places it to the 
    
    Key Field:   order_id
   
-   Links to:   
-                Customers Dataset (customer_id)
+   Links to:    Customers Dataset (customer_id)
                 Order Items Dataset (order_id)
                 Order Payments Dataset (order_id)
                 Order Reviews Dataset (order_id)
