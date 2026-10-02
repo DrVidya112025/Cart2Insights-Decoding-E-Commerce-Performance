@@ -35,25 +35,25 @@ Cart2Insights bridges that gap by transforming raw transactional data into actio
 
 ## 3. Detailed Description of Business Use Cases
 
-1. E-Commerce Performance Monitoring
+E-Commerce Performance Monitoring
 Enable real-time and historical tracking of key business metrics—such as order volume, revenue trends, conversion rates, and platform-wide KPIs—to provide stakeholders with a comprehensive, up-to-date view of overall business health.
 
-2. Customer Behavior & Segmentation
+Customer Behavior & Segmentation
 Analyze purchasing patterns, browsing behavior, and demographic data to segment customers into meaningful groups (e.g., high-value customers, frequent buyers, churn-risk segments), enabling targeted marketing and personalized engagement strategies.
 
-3. Sales & Revenue Optimization
+Sales & Revenue Optimization
 Identify revenue trends, high-performing product categories, seasonal demand patterns, and pricing effectiveness to uncover opportunities for maximizing sales and improving profit margins.
 
-4. Product & Seller Performance Analysis
+Product & Seller Performance Analysis
 Evaluate product-level metrics (sales volume, return rates, ratings) and seller performance (fulfillment reliability, quality scores, customer feedback) to identify top performers, underperforming listings,and areas requiring intervention.
 
-5. Delivery & Operational Optimization
+Delivery & Operational Optimization
 Assess logistics data—including delivery times, shipment delays, and regional fulfillment performance—to streamline operations, reduce delivery bottlenecks, and improve supply chain efficiency.
 
-6. Customer Experience Improvement
+Customer Experience Improvement
 Leverage customer reviews, ratings, and satisfaction metrics to identify pain points in the customer journey and drive improvements in service quality, product offerings, and support processes.
 
-7. Data-Driven Business Decision Making
+Data-Driven Business Decision Making
 Consolidate insights from all the above areas into unified dashboards and reports, empowering leadership and cross-functional teams to make informed, strategic decisions backed by data rather than intuition.
 
 ## 4. Understand the business context:
