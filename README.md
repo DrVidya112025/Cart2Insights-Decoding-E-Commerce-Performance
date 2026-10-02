@@ -61,11 +61,11 @@ An e-commerce platform facilitates the online sale of products.
 
 So, generates substantial volumes of data across several interconnected areas:
 
- Customers and their order history
- Products and sellers
- Payments and revenue
- Deliveries and shipping logistics
- Customer reviews and satisfaction ratings.
+Customers and their order history
+Products and sellers
+Payments and revenue
+Deliveries and shipping logistics
+Customer reviews and satisfaction ratings.
     
 This data resides across multiple related datasets.When analyzed collectively rather than in isolation, it enables a comprehensive understanding of business performance and highlights areas with the greatest potential for improvement.
 
@@ -144,6 +144,7 @@ Which underperforming areas present the greatest opportunity for improvement?
 These three statistical questions are being acted on:
 
 ### 	Business Question using Statistical Test
+
 >> 1	Do delayed orders receive significantly lower review scores than on-time orders?=Independent two-sample t-test
 
 >> 2	Does average order value differ significantly across product categories?=One-way ANOVA
@@ -156,11 +157,9 @@ These three statistical questions are being acted on:
 
 ## 2.1 Overview of the Dataset
 
-The Cart2 Insight project uses an e-commerce dataset containing 9 related tables. 
-These tables capture information about customers, orders, products, sellers, payments, reviews, product categories, and geographical locations.
+The Cart2 Insight project uses an e-commerce dataset containing 9 related tables.These tables capture information about customers, orders, products, sellers, payments, reviews, product categories, and geographical locations.
 
-The main purpose of understanding the dataset and Entity-Relationship (ER) structure is to identify how the tables are connected and 
-determine the correct keys and relationships before performing data cleaning, SQL loading, analysis, and feature engineering.
+The main purpose of understanding the dataset and Entity-Relationship (ER) structure is to identify how the tables are connected and determine the correct keys and relationships before performing data cleaning, SQL loading, analysis, and feature engineering.
 
 The nine tables are:
 
@@ -192,7 +191,6 @@ The `customers` table contains information about customers who placed orders.
 
 **Rows:** 99,441
 **Primary Key:** `customer_id`
-
 ---
 
 ## 2.2.2 Geolocation
