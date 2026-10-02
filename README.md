@@ -20,11 +20,17 @@ Cart2Insights bridges that gap by transforming raw transactional data into actio
 ## 2. Business Use Cases:
 
 ●	E-Commerce Performance Monitoring
+
 ●	Customer Behavior & Segmentation
+
 ●	Sales & Revenue Optimization
+
 ●	Product & Seller Performance Analysis
+
 ●	Delivery & Operational Optimization
+
 ●	Customer Experience Improvement
+
 ●	Data-Driven Business Decision Making
 
 ## 3.Detailed Description of Business Use Cases
