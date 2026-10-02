@@ -397,6 +397,7 @@ The major foreign-key relationships in the database are:
 All relationship in the table above is a valid, enforceable foreign key, since each parent key listed is a true primary key.
 
 ## 2.5.  Understanding the Relationships between table
+
 Understanding how these tables relate to one another is essential before any cleaning, warehousing, or analysis can begin.
 
 The nine tables in this dataset are not independent — together, they form a single, connected structure that traces 
@@ -404,18 +405,25 @@ the complete lifecycle of an order, from the moment a customer places it to the 
 
 
 ** Customers Dataset - olist_customers_dataset.csv
+   
    Key Field: customer_id
+   
    Links to:  Orders Dataset via customer_id → identifies which orders belong to which customer.
+   
    Insight:  Helps track churn, repeat purchases, and customer segmentation.
 
 ** Orders Dataset - olist_orders_dataset.csv
+   
    Key Field:   order_id
+  
    Links to:   
                 Customers Dataset (customer_id)
                 Order Items Dataset (order_id)
                 Order Payments Dataset (order_id)
                 Order Reviews Dataset (order_id)
-   Insight:     Central hub table — connects customers, items, payments, and reviews.
+
+    Insight:    Central hub table- connects customers, items, payments and reviews/
+  
 
 ** Order Items Dataset - olist_order_items_dataset.csv
    
@@ -439,34 +447,49 @@ the complete lifecycle of an order, from the moment a customer places it to the 
    Insight:     Provides product details and category mapping for analysis.
 
 ** Product Category Translation - product_category_name_translation.csv
+   
    Key Field:   product_category_name
+   
    Links to:
                 Products Dataset (product_category_name)
+   
    Insight:     Translates Portuguese product categories into English for easier reporting.
 
 ** Order Payments Dataset - olist_order_payments_dataset.csv)\
+  
    Key Field:   order_id
+   
    Links to:
                 Orders Dataset (order_id)
+  
    Insight:     Tracks payment methods, installments, and amounts.
 
 ** Order Reviews Dataset -olist_order_reviews_dataset.csv
+  
    Key Field:   order_id
+   
    Links to:
                 Orders Dataset (order_id)
+   
    Insight:     Captures customer feedback, ratings, and review timestamps.
 
 ** Sellers Dataset - olist_sellers_dataset.csv
+  
    Key Field:   seller_id
+   
    Links to:
-   Order Items Dataset (seller_id)
+               Order Items Dataset (seller_id)
+   
    Insight:    Provides seller location and identity, useful for seller performance analysis.
 
 ** Geolocation Dataset - olist_geolocation_dataset.csv
+   
    Key Fields: geolocation_zip_code_prefix
+  
    Links to:
                Customers Dataset (customer_zip_code_prefix)
                Sellers Dataset (seller_zip_code_prefix)
+   
    Insight:    Enables mapping of customer and seller locations based on ZIP-code prefixes for delivery optimization.
 
 ## 2.6.ER Diagram
