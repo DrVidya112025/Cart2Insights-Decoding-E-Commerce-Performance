@@ -921,13 +921,15 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
 ## Project Findings Summary
 
 This project has produced the following major findings:
-Revenue
+
+## Revenue
 
 Total revenue: ₹15,843,553.24
 Total orders: 99,441
 Average order value: ₹160.58
 
-Sales Trend
+## Sales Trend
+
 Revenue generally increased throughout 2017 and into 2018. November 2017 recorded the highest monthly revenue, at approximately ₹11.79 lakh. 
 September 2018 appears to represent an incomplete reporting period.
 
