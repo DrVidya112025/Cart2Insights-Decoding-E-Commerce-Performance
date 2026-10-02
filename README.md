@@ -163,23 +163,23 @@ The main purpose of understanding the dataset and Entity-Relationship (ER) struc
 
 The nine tables are:
 
->> Customers
+**Customers
 
->> Geolocation
+**Geolocation
 
->> Orders
+** Orders
 
->> Order Items
+** Order Items
 
->> Order Payments
+** Order Payments
 
->> Order Reviews
+** Order Reviews
 
->> Products
+** Products
 
->> Sellers
+** Sellers
 
->> Product Category Translation
+** Product Category Translation
 
 ## 2.2.Understanding the 9 Tables
 
