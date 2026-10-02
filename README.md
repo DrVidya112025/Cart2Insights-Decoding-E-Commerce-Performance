@@ -33,7 +33,7 @@ Cart2Insights bridges that gap by transforming raw transactional data into actio
 
 ●	Data-Driven Business Decision Making
 
-## 3.Detailed Description of Business Use Cases
+## 3. Detailed Description of Business Use Cases
 
 1. E-Commerce Performance Monitoring
 Enable real-time and historical tracking of key business metrics—such as order volume, revenue trends, conversion rates, and platform-wide KPIs—to provide stakeholders with a comprehensive, up-to-date view of overall business health.
