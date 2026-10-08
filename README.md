@@ -215,15 +215,6 @@ The `geolocation` table contains geographical information associated with Brazil
 
 **Rows:** 738,327
 
-The ZIP-code prefix is **not unique**, so it was not used as a primary key.
-Check	Result
-Total rows	1,000,163
-Unique zip_code_prefix values	19,015
-Prefixes appearing more than once	17,972
-Prefixes appearing exactly once	1,043
-
-Only about 5% of ZIP prefixes are unique in this table. The rest repeat dozens or even hundreds of times — 
-for example, ZIP prefix 24220 appears 1,146 times, and 24230 appears 1,102 times, each with different latitude/longitude values.
 
 ---
 
